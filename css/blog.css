@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto',sans-serif;
+  }
+  
+html{
+    background-image: linear-gradient(rgb(20, 22, 54),rgb(20, 22, 54));
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url("https://cdn.discordapp.com/attachments/844556108726796288/884480380646854656/lomooo.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.navlogo{
+    width: 30px;
+    cursor: pointer;
+    margin-left:40px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 16px;
+}
+
+.row{
+    margin-top: -100px;
+    display: flex;
+    height: 88%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+.col{
+    margin-left: 150px;
+    flex-basis: 70%;
+}
+
+h1{
+    color: white;
+    font-size: 5em;
+}
+  
+p{
+color: white;
+font-size: 12px;
+line-height: 15px;
+padding-top: 1px;
+}
+  
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+section{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: rgb(14, 16, 51);
+    margin-top:-150px;
+    border-radius: 8px;
+}
+
+section h2{
+    font-size: 3em;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+section h6{
+    font-size: 1em;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+section h5{
+    font-size: 1.3em;
+    padding-left: 30px;
+}
+
+.rdmoreee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .rdmoreee a{
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    background: #fff;
+    margin: 20px;
+  }
+  
+  .rdmoreee a:before,
+  .rdmoreee a:after
+  {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+    background: #f00;
+  }
+  
+  .rdmoreee a:nth-child(1):before,
+  .rdmoreee a:nth-child(1):after
+  {
+    background: linear-gradient(45deg,#646eff,rgb(20, 22, 54),rgb(20, 22, 54),#db0393);
+  }
+  
+  .rdmoreee a:hover:before{
+    inset: -3px;
+  
+  }
+  
+  .rdmoreee a:hover:after{
+    inset: -3px;
+    filter: blur(10px);
+  }
+  
+  .rdmoreee a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: rgb(1, 1, 10);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: 1px solid #040a29;
+    overflow: hidden;
+  }
+  
+  .rdmoreee a span::before
+  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    transform: skew(25deg);
+  }
+  
+  .creators{
+    display: flex;
+    justify-content: center;
+    min-height: 65vh;
+    flex-wrap: wrap; 
+  }
+  
+  .creators .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+    margin: 40px;  
+  }
+  
+  .creators .box::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #fff;
+    z-index: -1;
+  }
+  
+  .creators .box::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(15px);
+  }
+  
+  .creators .box .glass{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.1);
+    pointer-events: none;
+  }
+  
+  .creators .box .contentlo{
+    color: #fff;
+    justify-content: center;
+  }
+  
+  .creators .box:nth-child(1):before,
+  .creators .box:nth-child(1):after
+  {
+    background: linear-gradient(235deg,#89ff00,#010615,#00bcd4);
+  }
+  
+  .creators .box:nth-child(2):before,
+  .creators .box:nth-child(2):after
+  {
+    background: linear-gradient(235deg,#ff005e,#010615,#fbff00);
+  }
+  
+  .creators .box:nth-child(3):before,
+  .creators .box:nth-child(3):after
+  {
+    background: linear-gradient(235deg,#772aff,#010615,#2196F3);
+  }  
+  
+  
+  .Dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 3em;
+  }
+  
+  .creators .box .contentlo{
+    color: #fff;
+    justify-content: center;
+  }
+  
+  .creators .box .contentlo1{
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo2{
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo3{
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo1 p{
+    margin-left: 82.5px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo2 p{
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo3 p{
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo1 h2{
+    margin-left: 40px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo2 h2{
+    margin-left: 40px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo3 h2{
+    margin-left: 40px;
+    color: #fff;
+  }
+  
+  .creators .box .contentlo1 img{
+    padding-top: 40px;
+    height: 77%;
+    width: 77%;
+    margin-left: 30px;
+  }
+  
+  .creators .box .contentlo2 img{
+    padding-top: 40px;
+  }
+  
+  .creators .box .contentlo3 img{
+    padding-top: 40px;
+  }
+  
+  .ty{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    width: 80%;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: 62px;
+    border: 2px #000;
+    border-radius: 10px;
+  }
+  
+  .gotopbtn{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 40px;
+    right:50px;
+    z-index: 3;
+  }
+  
+  .gotopbtn img{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .trailer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .trailer span video{
+    height: 720px;
+    width: 1080px;
+  }
+  
+  .disco{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    width: 80%;
+    align-self: center;
+    margin-left: 150px;
+    margin-bottom: 62px;
+    border: 2px #000;
+    border-radius: 10px;
+  }
+  
+  .disco h4{
+    margin-bottom: 10px;
+  }
+  
+  .disco h5{
+    margin-bottom: 15px;
+  }
+  
+  .Teaser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 50px;
+    font-size: 3em;
+  }
+  .lini1{
+    color: white;
+    margin-top: 200px;
+  }
+
+  .lini{
+      color: white;
+  }
+  ::-webkit-scrollbar
+  {
+    width: 0;
+  }
+  #scrollpath
+  {
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 10%;
+    height: 100px;
+    background-image: rgb(20, 22, 54)
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    margin-bottom: -7px;
+    margin-top: -60px;
+    background-color: #08000f;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* background-image: url("https://media.discordapp.net/attachments/763767615042224149/875370432222613584/3eb7b267-4788-47e7-a021-080c4d9f8d3f.png%22); /
+  }
+  ::-webkit-scrollbar-track-piece:start {
+    margin-bottom: -100px;
+  }
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-track-piece:start {
+    background-color: rgb(204, 19, 105);
+    / background-color: #6d468c */
+  }

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/product.css">
+    <title>Shop The Future</title>
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/log.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#teaser">TRAILER</a></li>
+                    <li><a href="#devel">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <img src="images/navlogo.png.png" class="navlogo">
+        </div>
+        <div class="heading">
+            <h1>Shop The Future</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>PRODUCT'S</h1>
+                <p>Scroll Down For More Info</p>
+                <img src="images/scroll.png">
+            </div>
+        </div>
+    </div>
+    <div class="productslider">
+        <section class="sect">
+            <img src="images/ss44.png" id="slider">
+            <ul class="navigation">
+                <li onclick="imgSlider('images/ss44.png')"><img src="images/ss44.png"></li>
+                <li onclick="imgSlider('images/ss45.png')"><img src="images/ss45.png"></li>
+                <li onclick="imgSlider('images/ss46.png')"><img src="images/ss46.png"></li>
+            </ul>
+            <script type="text/javascript">
+                function imgSlider(anything){
+                    document.getElementById("slider").src = anything;
+                }
+            </script>
+        </section>
+    <h2 class="lini">_________________________________________________________________________________________________________________</h2>
+    <div class="Dev" id="devel">
+        <h2>Developers</h2>
+    </div>
+    <div class="creators">
+        <div class="box">
+            <div class="glass"></div>
+            <div class="contentlo contentlo1">
+                <h2>Shashwat Tripathi</h2>
+                <p>Head Scripter, Designer</p>
+                <img src="images/vko.jpg">
+            </div>
+        </div>
+        <div class="box">
+            <div class="glass"></div>
+            <div class="contentlo contentlo2">
+                <h2>Rochak Jain</h2>
+                <p>Head Scripter, Designer</p>
+                <img src="images/bb.jpg">
+            </div>
+        </div>
+        <div class="box">
+            <div class="glass"></div>
+            <div class="contentlo contentlo3">
+                <h2>Ayush Garg</h2>
+                <p>Head Editor, Designer</p>
+                <img src="images/a.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="ty">
+    <h2>"Meet the Team behind the job"</h2>
+    </div>
+    <div class="disco">
+        <span>
+            <h4>Discord IDs</h4>
+            <h5>Shashwat Tripathi: Shashwat|WebD|V08#3701</h5>
+            <h5>Rochak Jain: Captain007#0357</h5>
+            <h5>Ayush Garg: ayushgarg | web d | V08#8837</h5>
+        </span>
+    </div> 
+    <h2 class="lini">_________________________________________________________________________________________________________________</h2>
+    <div class="Teaser" id="teaser">
+        <h3>Trailer</h3>
+    </div>
+    <div class="trailer">
+        <span>
+            <embed style="width:720px; height: 450px;" src="https://www.youtube.com/embed/HlmoXTY73K8"></embed>
+        </span>
+    </div>
+    </div>
+</body>
+</html>
