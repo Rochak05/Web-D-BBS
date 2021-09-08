@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'roboto',sans-serif;
+    font-family: 'roboto',dosis;
   }
   
 html{
@@ -15,7 +15,7 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url("https://cdn.discordapp.com/attachments/844556108726796288/884480380646854656/lomooo.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url("https://cdn.discordapp.com/attachments/881536993329291280/884486738796482570/lomooo.jpeg");
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -74,6 +74,7 @@ nav ul li a{
 h1{
     color: white;
     font-size: 5em;
+    text-shadow: 0 0 11px #FF0000, 0 0 25px #0000FF;
 }
   
 p{
@@ -81,6 +82,8 @@ color: white;
 font-size: 12px;
 line-height: 15px;
 padding-top: 1px;
+
+
 }
 
 section{
@@ -265,6 +268,7 @@ section{
     color: #fff;
     padding-top: 50px;
     font-size: 3em;
+    text-shadow: 2px 2px 5px #7B68EE;
   }
   
   .creators .box .contentlo{
@@ -343,6 +347,7 @@ section{
     margin-bottom: 62px;
     border: 2px #000;
     border-radius: 10px;
+    text-shadow: 2px 2px 5px #7B68EE;
   }
   
   .gotopbtn{
@@ -398,6 +403,7 @@ section{
     color: #fff;
     padding-top: 50px;
     font-size: 3em;
+    text-shadow: 2px 2px 5px #7B68EE;
   }
   .lini1{
     color: white;
