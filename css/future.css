@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'roboto',sans-serif;
+  font-family: 'roboto',dosis;
 }
 
 html{
@@ -247,6 +247,7 @@ section p{
   padding-top: 80px;
   padding-right: 30px;
   padding-bottom: 10px;
+  text-shadow: 0 0 11px #FF0000, 0 0 25px #0000FF;
 
 }
 .content ul{
@@ -280,6 +281,7 @@ section p{
   border-radius: 12px;
   display:flex;
   transition: 0.7s ease-in-out;
+  text-shadow: 2px 2px 5px #7B68EE;
 }
 .content h1 {
   padding-left: 5px;
@@ -374,6 +376,7 @@ section p{
   color: #fff;
   padding-top: 50px;
   font-size: 3em;
+  text-shadow: 2px 2px 5px #7B68EE;
 }
 
 .creators .box .contentlo{
@@ -452,6 +455,7 @@ section p{
   margin-bottom: 62px;
   border: 2px #000;
   border-radius: 10px;
+  text-shadow: 2px 2px 5px #7B68EE;
 }
 
 .gotopbtn{
@@ -507,6 +511,7 @@ section p{
   color: #fff;
   padding-top: 50px;
   font-size: 3em;
+  text-shadow: 2px 2px 5px #7B68EE;
 }
 .gotopbtn{
   position: fixed;
