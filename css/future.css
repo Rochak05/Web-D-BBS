@@ -6,6 +6,7 @@
 
 html{
   background-image: linear-gradient(rgb(20, 22, 54),rgb(20, 22, 54));
+  scroll-behavior: smooth;
 }
 
 .container{
@@ -196,6 +197,10 @@ section p{
   width: 230px;
   
 }
+
+.card__text h1{
+  margin-left: 20px;
+}
 .card__text1 {
   width: 90%;
   font-size: 17px;
@@ -230,6 +235,11 @@ section p{
   width: 240px;
   
 }
+
+.card__text1 h1{
+  margin-left: 20px;
+}
+
 .content1{
   margin-left: 20px;
   margin-top: 20px;
@@ -456,6 +466,8 @@ section p{
   border: 2px #000;
   border-radius: 10px;
   text-shadow: 2px 2px 5px #7B68EE;
+  padding-bottom: 40px;
+  padding-top: 18px;
 }
 
 .gotopbtn{
@@ -512,7 +524,19 @@ section p{
   padding-top: 50px;
   font-size: 3em;
   text-shadow: 2px 2px 5px #7B68EE;
+  padding-bottom: 20px;
 }
+
+.crdtxt1 .content1{
+  padding-left: -40px;
+}
+
+.lini {
+  color: #fff;
+  text-align: left;
+  margin-left: -150px;
+}
+
 .gotopbtn{
   position: fixed;
   height: 50px;
